@@ -149,6 +149,23 @@
     object-fit: cover;
     border-radius: 8px;
 } 
+        .hero-button {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 25px;
+    background: white;
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hero-button:hover {
+    background: #a78bfa;
+    color: white;
+    transform: translateY(-3px);
+} 
     </style>
 </head>
 
@@ -164,7 +181,7 @@
     </div>
     </nav>
 
-    <section class="hero">
+    <section id="home" class="hero">
         <h1>Hello, I'm Waleed 👋</h1>
 
         <h2>مرحباً، أنا وليد</h2>
@@ -175,7 +192,9 @@
             أتعلم تطوير وتصميم المواقع.
         </p>
 
-        <button>My Projects | مشاريعي</button>
+        <a href="#projects" class="hero-button">
+    My Projects | مشاريعي
+        </a>
     </section>
     <section id="about" class="about">
 
